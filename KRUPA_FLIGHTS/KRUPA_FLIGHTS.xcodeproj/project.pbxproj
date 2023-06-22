@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA03D9D32A38EA7E00B34F48 /* KRUPA_FLIGHTSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D9D22A38EA7E00B34F48 /* KRUPA_FLIGHTSApp.swift */; };
+		DA03D9D52A38EA7E00B34F48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D9D42A38EA7E00B34F48 /* ContentView.swift */; };
+		DA03D9D72A38EA7F00B34F48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA03D9D62A38EA7F00B34F48 /* Assets.xcassets */; };
+		DA03D9DA2A38EA7F00B34F48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA03D9D92A38EA7F00B34F48 /* Preview Assets.xcassets */; };
+		DA03D9E12A38F5A000B34F48 /* FlightReservationForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D9E02A38F5A000B34F48 /* FlightReservationForm.swift */; };
+		DA03D9E52A38F64600B34F48 /* ReservationHistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D9E42A38F64600B34F48 /* ReservationHistoryScreen.swift */; };
+		DA03D9E72A38F78100B34F48 /* ReservationDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D9E62A38F78100B34F48 /* ReservationDetailsScreen.swift */; };
+		DA03D9E92A38F85900B34F48 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03D9E82A38F85900B34F48 /* Reservation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA03D9CF2A38EA7E00B34F48 /* KRUPA_FLIGHTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRUPA_FLIGHTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA03D9D22A38EA7E00B34F48 /* KRUPA_FLIGHTSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRUPA_FLIGHTSApp.swift; sourceTree = "<group>"; };
+		DA03D9D42A38EA7E00B34F48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA03D9D62A38EA7F00B34F48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA03D9D92A38EA7F00B34F48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA03D9E02A38F5A000B34F48 /* FlightReservationForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightReservationForm.swift; sourceTree = "<group>"; };
+		DA03D9E42A38F64600B34F48 /* ReservationHistoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationHistoryScreen.swift; sourceTree = "<group>"; };
+		DA03D9E62A38F78100B34F48 /* ReservationDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationDetailsScreen.swift; sourceTree = "<group>"; };
+		DA03D9E82A38F85900B34F48 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA03D9CC2A38EA7E00B34F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA03D9C62A38EA7E00B34F48 = {
+			isa = PBXGroup;
+			children = (
+				DA03D9D12A38EA7E00B34F48 /* KRUPA_FLIGHTS */,
+				DA03D9D02A38EA7E00B34F48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA03D9D02A38EA7E00B34F48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA03D9CF2A38EA7E00B34F48 /* KRUPA_FLIGHTS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA03D9D12A38EA7E00B34F48 /* KRUPA_FLIGHTS */ = {
+			isa = PBXGroup;
+			children = (
+				DA03D9D22A38EA7E00B34F48 /* KRUPA_FLIGHTSApp.swift */,
+				DA03D9D42A38EA7E00B34F48 /* ContentView.swift */,
+				DA03D9D62A38EA7F00B34F48 /* Assets.xcassets */,
+				DA03D9D82A38EA7F00B34F48 /* Preview Content */,
+			);
+			path = KRUPA_FLIGHTS;
+			sourceTree = "<group>";
+		};
+		DA03D9D82A38EA7F00B34F48 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA03D9D92A38EA7F00B34F48 /* Preview Assets.xcassets */,
+				DA03D9E82A38F85900B34F48 /* Reservation.swift */,
+				DA03D9E02A38F5A000B34F48 /* FlightReservationForm.swift */,
+				DA03D9E42A38F64600B34F48 /* ReservationHistoryScreen.swift */,
+				DA03D9E62A38F78100B34F48 /* ReservationDetailsScreen.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA03D9CE2A38EA7E00B34F48 /* KRUPA_FLIGHTS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA03D9DD2A38EA7F00B34F48 /* Build configuration list for PBXNativeTarget "KRUPA_FLIGHTS" */;
+			buildPhases = (
+				DA03D9CB2A38EA7E00B34F48 /* Sources */,
+				DA03D9CC2A38EA7E00B34F48 /* Frameworks */,
+				DA03D9CD2A38EA7E00B34F48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRUPA_FLIGHTS;
+			productName = KRUPA_FLIGHTS;
+			productReference = DA03D9CF2A38EA7E00B34F48 /* KRUPA_FLIGHTS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA03D9C72A38EA7E00B34F48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DA03D9CE2A38EA7E00B34F48 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DA03D9CA2A38EA7E00B34F48 /* Build configuration list for PBXProject "KRUPA_FLIGHTS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA03D9C62A38EA7E00B34F48;
+			productRefGroup = DA03D9D02A38EA7E00B34F48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA03D9CE2A38EA7E00B34F48 /* KRUPA_FLIGHTS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA03D9CD2A38EA7E00B34F48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA03D9DA2A38EA7F00B34F48 /* Preview Assets.xcassets in Resources */,
+				DA03D9D72A38EA7F00B34F48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA03D9CB2A38EA7E00B34F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA03D9E12A38F5A000B34F48 /* FlightReservationForm.swift in Sources */,
+				DA03D9E52A38F64600B34F48 /* ReservationHistoryScreen.swift in Sources */,
+				DA03D9E92A38F85900B34F48 /* Reservation.swift in Sources */,
+				DA03D9D52A38EA7E00B34F48 /* ContentView.swift in Sources */,
+				DA03D9D32A38EA7E00B34F48 /* KRUPA_FLIGHTSApp.swift in Sources */,
+				DA03D9E72A38F78100B34F48 /* ReservationDetailsScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DA03D9DB2A38EA7F00B34F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA03D9DC2A38EA7F00B34F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA03D9DE2A38EA7F00B34F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KRUPA_FLIGHTS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KRUPA-PATEL.KRUPA-FLIGHTS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA03D9DF2A38EA7F00B34F48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KRUPA_FLIGHTS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KRUPA-PATEL.KRUPA-FLIGHTS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA03D9CA2A38EA7E00B34F48 /* Build configuration list for PBXProject "KRUPA_FLIGHTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA03D9DB2A38EA7F00B34F48 /* Debug */,
+				DA03D9DC2A38EA7F00B34F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA03D9DD2A38EA7F00B34F48 /* Build configuration list for PBXNativeTarget "KRUPA_FLIGHTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA03D9DE2A38EA7F00B34F48 /* Debug */,
+				DA03D9DF2A38EA7F00B34F48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA03D9C72A38EA7E00B34F48 /* Project object */;
+}
